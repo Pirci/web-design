@@ -1,0 +1,194 @@
+/* Core style */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Global Style */
+
+#highlight {
+  color: #e8491d;
+  font-weight: bold;
+}
+
+.button-1 {
+  height: 38px;
+  background: #e8491d;
+  border: none;
+  padding: 0 20px;
+  color: #fff;
+}
+
+.dark {
+  padding: 15px;
+  background: #35424a;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Header style */
+header {
+  background: #35424a;
+  color: #fff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+header ul {
+  display: flex;
+}
+
+header li {
+  padding: 0 20px 0 20px;
+  list-style: none;
+}
+
+header li:first-child {
+  padding-left: 0;
+}
+
+header a:hover {
+  color: #ccc;
+  font-weight: bold;
+}
+
+/* Showcase style */
+#showcase {
+  min-height: 400px;
+  background: url("../img/showcase.jpg") no-repeat 0 -400px;
+  text-align: center;
+  color: #fff;
+}
+
+#showcase h1 {
+  margin-top: 100px;
+  font-size: 3.4rem;
+  margin-bottom: 10px;
+}
+
+#showcase p {
+  font-size: 1.25rem;
+}
+
+/* Newsletter style */
+#newsletter {
+  padding: 15px;
+  color: #fff;
+  background: #35424a;
+}
+
+#newsletter .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#newsletter input[type="email"] {
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+
+/* Section > Boxes style (Index.html) */
+#boxes {
+  margin-top: 20px;
+}
+
+#boxes .box img {
+  width: 90px;
+}
+
+#boxes .img-container,
+h3,
+p {
+  text-align: center;
+}
+
+#boxes .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box {
+  flex-basis: 20%;
+}
+
+/* Section > Main style (About.html) */
+
+#main .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#main-col {
+  flex-basis: 65%;
+}
+
+#sidebar {
+  flex-basis: 30%;
+}
+
+#main h1,
+h3,
+p {
+  text-align: left;
+}
+
+/* Section > Main style (Services.html) */
+#services li {
+  list-style: none;
+  padding: 20px;
+  border: #ccc solid 1px;
+  margin-bottom: 5px;
+  background: #e6e6e6;
+}
+
+.quote input,
+textarea {
+  width: 90%;
+  padding: 5px;
+}
+
+form div {
+  padding-bottom: 20px;
+}
+
+/* Footer Style */
+
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: #fff;
+  background-color: #e8491d;
+  text-align: center;
+}
