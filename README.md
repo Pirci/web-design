@@ -8,7 +8,7 @@ From [Fullstack Software Developer Bootcamp](https://www.seytech.co/)
 
 Preview: https://pirci.github.io/web-design/
 
-
+![web-design-homepage](img/demo.gif)
 
 ## What I Learned:
 
