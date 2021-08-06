@@ -1,8 +1,6 @@
-### Seytech Fullstack Software Developer Bootcamp
+### Web Design Responsive Page
 
-> HTML & CSS #3rd Tutorial Project (Web Design).
-
-From [Fullstack Software Developer Bootcamp](https://www.seytech.co/)
+> HTML & CSS Web Design Page.
 
 ## Live Demo
 
